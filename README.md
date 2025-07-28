@@ -185,13 +185,117 @@ Track agent effectiveness through:
 - 🚧 **Coming Soon**: In development
 - 🧪 **Beta**: Testing with limited functionality
 
+## 🛠️ Customizing Agents for Your Studio
+
+### Agent Customization Todo List
+
+Use this checklist when creating or modifying agents for your specific needs:
+
+#### 📋 Required Components
+- [ ] **YAML Frontmatter**
+  - [ ] `name`: Unique agent identifier (kebab-case)
+  - [ ] `description`: When to use + 3-4 detailed examples with context/commentary
+  - [ ] `color`: Visual identification (e.g., blue, green, purple, indigo)
+  - [ ] `tools`: Specific tools the agent can access (Write, Read, MultiEdit, Bash, etc.)
+
+#### 📝 System Prompt Requirements (500+ words)
+- [ ] **Agent Identity**: Clear role definition and expertise area
+- [ ] **Core Responsibilities**: 5-8 specific primary duties
+- [ ] **Domain Expertise**: Technical skills and knowledge areas
+- [ ] **Studio Integration**: How agent fits into 6-day sprint workflow
+- [ ] **Best Practices**: Specific methodologies and approaches
+- [ ] **Constraints**: What the agent should/shouldn't do
+- [ ] **Success Metrics**: How to measure agent effectiveness
+
+#### 🎯 Required Examples by Agent Type
+
+**Engineering Agents** need examples for:
+- [ ] Feature implementation requests
+- [ ] Bug fixing scenarios
+- [ ] Code refactoring tasks
+- [ ] Architecture decisions
+
+**Design Agents** need examples for:
+- [ ] New UI component creation
+- [ ] Design system work
+- [ ] User experience problems
+- [ ] Visual identity tasks
+
+**Marketing Agents** need examples for:
+- [ ] Campaign creation requests
+- [ ] Platform-specific content needs
+- [ ] Growth opportunity identification
+- [ ] Brand positioning tasks
+
+**Product Agents** need examples for:
+- [ ] Feature prioritization decisions
+- [ ] User feedback analysis
+- [ ] Market research requests
+- [ ] Strategic planning needs
+
+**Operations Agents** need examples for:
+- [ ] Process optimization
+- [ ] Tool evaluation
+- [ ] Resource management
+- [ ] Performance analysis
+
+#### ✅ Testing & Validation Checklist
+- [ ] **Trigger Testing**: Agent activates correctly for intended use cases
+- [ ] **Tool Access**: Agent can use all specified tools properly
+- [ ] **Output Quality**: Responses are helpful and actionable
+- [ ] **Edge Cases**: Agent handles unexpected or complex scenarios
+- [ ] **Integration**: Works well with other agents in multi-agent workflows
+- [ ] **Performance**: Completes tasks within reasonable timeframes
+- [ ] **Documentation**: Examples accurately reflect real usage patterns
+
+#### 🔧 Agent File Structure Template
+
+```markdown
+---
+name: your-agent-name
+description: Use this agent when [scenario]. This agent specializes in [expertise]. Examples:\n\n<example>\nContext: [situation]\nuser: "[user request]"\nassistant: "[response approach]"\n<commentary>\n[why this example matters]\n</commentary>\n</example>\n\n[3 more examples...]
+color: agent-color
+tools: Tool1, Tool2, Tool3
+---
+
+You are a [role] who [primary function]. Your expertise spans [domains]. You understand that in 6-day sprints, [sprint constraint], so you [approach].
+
+Your primary responsibilities:
+1. [Responsibility 1]
+2. [Responsibility 2]
+...
+
+[Detailed system prompt content...]
+
+Your goal is to [ultimate objective]. You [key behavior traits]. Remember: [key philosophy for 6-day sprints].
+```
+
+#### 📂 Department-Specific Guidelines
+
+**Engineering** (`engineering/`): Focus on implementation speed, code quality, testing
+**Design** (`design/`): Emphasize user experience, visual consistency, rapid iteration  
+**Marketing** (`marketing/`): Target viral potential, platform expertise, growth metrics
+**Product** (`product/`): Prioritize user value, data-driven decisions, market fit
+**Operations** (`studio-operations/`): Optimize processes, reduce friction, scale systems
+**Testing** (`testing/`): Ensure quality, find bottlenecks, validate performance
+**Project Management** (`project-management/`): Coordinate teams, ship on time, manage scope
+
+#### 🎯 Studio-Specific Customizations
+
+Modify these elements to match your studio:
+- [ ] Replace "6-day sprints" with your cycle length
+- [ ] Update tool lists to match your tech stack
+- [ ] Adjust examples to reflect your product types
+- [ ] Modify success metrics for your KPIs
+- [ ] Update department structure if needed
+- [ ] Customize agent colors for your brand
+
 ## 🤝 Contributing
 
 To improve existing agents or suggest new ones:
-1. Identify gaps in current capabilities
-2. Document specific use cases
-3. Draft agent specification
-4. Test with real studio projects
-5. Submit improvements
+1. Use the customization checklist above
+2. Test thoroughly with real projects
+3. Document performance improvements
+4. Share successful patterns with the community
 
 Remember: The goal is to accelerate development, not add complexity. Every agent should make the 6-day sprint more achievable.
