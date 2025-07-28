@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(tree:*)",
+      "Bash(find:*)",
+      "Bash(mv:*)",
+      "Bash(ls:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(__NEW_LINE__ mv design/ui-designer.md design-ui-designer.md)",
+      "Bash(__NEW_LINE__ mv design/whimsy-injector.md design-whimsy-injector.md)",
+      "Bash(__NEW_LINE__ mv engineering/rapid-prototyper.md engineering-rapid-prototyper.md)",
+      "Bash(__NEW_LINE__ mv marketing/app-store-optimizer.md marketing-app-store-optimizer.md)",
+      "Bash(__NEW_LINE__ mv marketing/tiktok-strategist.md marketing-tiktok-strategist.md)",
+      "Bash(__NEW_LINE__ mv product/feedback-synthesizer.md product-feedback-synthesizer.md)",
+      "Bash(__NEW_LINE__ mv product/trend-researcher.md product-trend-researcher.md)",
+      "Bash(__NEW_LINE__ mv project-management/experiment-tracker.md project-management-experiment-tracker.md)",
+      "Bash(__NEW_LINE__ mv studio-operations/support-responder.md studio-operations-support-responder.md)",
+      "Bash(__NEW_LINE__ mv testing/tool-evaluator.md testing-tool-evaluator.md)",
+      "Bash(__NEW_LINE__ rmdir design engineering marketing product project-management studio-operations testing)",
+      "Bash(__NEW_LINE__ mv design-ui-designer.md design/ui-designer.md)",
+      "Bash(__NEW_LINE__ mv design-whimsy-injector.md design/whimsy-injector.md)",
+      "Bash(__NEW_LINE__ mv engineering-rapid-prototyper.md engineering/rapid-prototyper.md)",
+      "Bash(__NEW_LINE__ mv marketing-app-store-optimizer.md marketing/app-store-optimizer.md)",
+      "Bash(__NEW_LINE__ mv marketing-tiktok-strategist.md marketing/tiktok-strategist.md)",
+      "Bash(__NEW_LINE__ mv product-feedback-synthesizer.md product/feedback-synthesizer.md)",
+      "Bash(__NEW_LINE__ mv product-trend-researcher.md product/trend-researcher.md)",
+      "Bash(__NEW_LINE__ mv project-management-experiment-tracker.md project-management/experiment-tracker.md)",
+      "Bash(__NEW_LINE__ mv studio-operations-support-responder.md studio-operations/support-responder.md)",
+      "Bash(__NEW_LINE__ mv testing-tool-evaluator.md testing/tool-evaluator.md)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
