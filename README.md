@@ -78,9 +78,9 @@ contains-studio-agents/
 │   ├── test-results-analyzer.md
 │   ├── tool-evaluator.md
 │   └── workflow-optimizer.md
-├── test/
-│   └── joker.md
-└── studio-coach.md
+└── bonus/
+    ├── joker.md
+    └── studio-coach.md
 ```
 
 ## 📋 Complete Agent List
