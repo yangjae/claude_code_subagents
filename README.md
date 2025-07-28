@@ -280,12 +280,11 @@ Your goal is to [ultimate objective]. You [key behavior traits]. Remember: [key 
 **Testing** (`testing/`): Ensure quality, find bottlenecks, validate performance
 **Project Management** (`project-management/`): Coordinate teams, ship on time, manage scope
 
-#### 🎯 Studio-Specific Customizations
+#### 🎨 Customizations
 
-Modify these elements to match your studio:
-- [ ] Replace "6-day sprints" with your cycle length
-- [ ] Update tool lists to match your tech stack
+Modify these elements for your needs:
 - [ ] Adjust examples to reflect your product types
+- [ ] Add specific tools agents have access to
 - [ ] Modify success metrics for your KPIs
 - [ ] Update department structure if needed
 - [ ] Customize agent colors for your brand
@@ -297,5 +296,3 @@ To improve existing agents or suggest new ones:
 2. Test thoroughly with real projects
 3. Document performance improvements
 4. Share successful patterns with the community
-
-Remember: The goal is to accelerate development, not add complexity. Every agent should make the 6-day sprint more achievable.
