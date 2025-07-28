@@ -85,9 +85,6 @@ contains-studio-agents/
 
 ## 📋 Complete Agent List
 
-### 🏆 Studio Leadership
-- **studio-coach** - Elite performance coach and motivation leader for all agents
-
 ### Engineering Department (`engineering/`)
 - **ai-engineer** - Integrate AI/ML features that actually ship
 - **backend-architect** - Design scalable APIs and server systems
@@ -137,7 +134,7 @@ contains-studio-agents/
 - **tool-evaluator** - Choose tools that actually help
 - **workflow-optimizer** - Eliminate workflow bottlenecks
 
-### Core & Special Agents
+## 🎁 Bonus Agents
 - **studio-coach** - Rally the AI troops to excellence
 - **joker** - Lighten the mood with tech humor
 
