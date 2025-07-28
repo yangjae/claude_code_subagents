@@ -96,7 +96,7 @@ contains-studio-agents/
 
 ### Product Department (`product/`)
 - **feedback-synthesizer** - Transform complaints into features
-- **sprint-prioritizer** - Ship maximum value in 6 weeks
+- **sprint-prioritizer** - Ship maximum value in 6 days
 - **trend-researcher** - Identify viral opportunities
 
 ### Marketing Department (`marketing/`)
@@ -151,7 +151,7 @@ Some agents trigger automatically in specific contexts:
 1. **Let agents work together** - Many tasks benefit from multiple agents
 2. **Be specific** - Clear task descriptions help agents perform better
 3. **Trust the expertise** - Agents are designed for their specific domains
-4. **Iterate quickly** - Agents support the 6-week sprint philosophy
+4. **Iterate quickly** - Agents support the 6-day sprint philosophy
 
 ## 🔧 Technical Details
 
@@ -194,4 +194,4 @@ To improve existing agents or suggest new ones:
 4. Test with real studio projects
 5. Submit improvements
 
-Remember: The goal is to accelerate development, not add complexity. Every agent should make the 6-week sprint more achievable.
+Remember: The goal is to accelerate development, not add complexity. Every agent should make the 6-day sprint more achievable.

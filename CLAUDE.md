@@ -56,7 +56,7 @@ The studio leverages specialized AI agents to accelerate development:
   ## Product (3 agents)
 
   - feedback-synthesizer - Transform complaints into features
-  - sprint-prioritizer - Ship maximum value in 6 weeks
+  - sprint-prioritizer - Ship maximum value in 6 days
   - trend-researcher - Identify viral opportunities
 
   ## Project Management (3 agents)
