@@ -1,3 +1,10 @@
+---
+name: README
+description: Documentation file for the agent collection
+type: documentation
+exclude_from_parsing: true
+---
+
 # Contains Studio AI Agents
 
 A comprehensive collection of specialized AI agents designed to accelerate and enhance every aspect of rapid development. Each agent is an expert in their domain, ready to be invoked when their expertise is needed.
@@ -62,6 +69,10 @@ contains-studio-agents/
 │   ├── feedback-synthesizer.md
 │   ├── sprint-prioritizer.md
 │   └── trend-researcher.md
+├── productivity/
+│   ├── pro-memento-mcp-operator.md
+│   ├── pro-notion-note-taker.md
+│   └── pro-obsidian-note-taker.md
 ├── project-management/
 │   ├── experiment-tracker.md
 │   ├── project-shipper.md
@@ -133,6 +144,11 @@ contains-studio-agents/
 - **test-results-analyzer** - Find patterns in test failures
 - **tool-evaluator** - Choose tools that actually help
 - **workflow-optimizer** - Eliminate workflow bottlenecks
+
+### Productivity Department (`productivity/`)
+- **pro-memento-mcp-operator** - Advanced MCP server management and integration
+- **pro-notion-note-taker** - Professional Notion workspace management
+- **pro-obsidian-note-taker** - Expert Obsidian knowledge base creation
 
 ## 🎁 Bonus Agents
 - **studio-coach** - Rally the AI troops to excellence
@@ -239,6 +255,12 @@ Use this checklist when creating or modifying agents for your specific needs:
 - [ ] Resource management
 - [ ] Performance analysis
 
+**Productivity Agents** need examples for:
+- [ ] Knowledge management workflows
+- [ ] Note-taking system optimization
+- [ ] Cross-platform integration
+- [ ] Information organization tasks
+
 #### ✅ Testing & Validation Checklist
 - [ ] **Trigger Testing**: Agent activates correctly for intended use cases
 - [ ] **Tool Access**: Agent can use all specified tools properly
@@ -273,9 +295,10 @@ Your goal is to [ultimate objective]. You [key behavior traits]. Remember: [key 
 #### 📂 Department-Specific Guidelines
 
 **Engineering** (`engineering/`): Focus on implementation speed, code quality, testing
-**Design** (`design/`): Emphasize user experience, visual consistency, rapid iteration  
+**Design** (`design/`): Emphasize user experience, visual consistency, rapid iteration
 **Marketing** (`marketing/`): Target viral potential, platform expertise, growth metrics
 **Product** (`product/`): Prioritize user value, data-driven decisions, market fit
+**Productivity** (`productivity/`): Streamline knowledge workflows, optimize information systems
 **Operations** (`studio-operations/`): Optimize processes, reduce friction, scale systems
 **Testing** (`testing/`): Ensure quality, find bottlenecks, validate performance
 **Project Management** (`project-management/`): Coordinate teams, ship on time, manage scope
